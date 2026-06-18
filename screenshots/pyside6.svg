@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b2b3d"/>
+      <stop offset="100%" style="stop-color:#1e1e2e"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#66BB6A"/>
+    </linearGradient>
+    <linearGradient id="progress3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#81C784"/>
+    </linearGradient>
+    <filter id="shadow3" x="-1%" y="-1%" width="102%" height="103%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Window -->
+  <rect width="920" height="620" rx="8" fill="url(#bg3)" filter="url(#shadow3)"/>
+  <rect width="920" height="28" rx="8" fill="#1a1a28"/>
+  <rect y="8" width="920" height="20" fill="#1a1a28"/>
+  <circle cx="16" cy="14" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="14" r="5" fill="#febc2e"/>
+  <circle cx="52" cy="14" r="5" fill="#28c840"/>
+  <text x="460" y="18" font-family="Segoe UI, sans-serif" font-size="12" fill="#666" text-anchor="middle">YouTube Downloader</text>
+
+  <!-- Title -->
+  <text x="30" y="65" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#4CAF50">YouTube Downloader</text>
+
+  <!-- Download Section Box -->
+  <rect x="25" y="85" width="870" height="200" rx="6" fill="#2d2d3d" stroke="#404050" stroke-width="1"/>
+  <text x="40" y="108" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Download</text>
+
+  <!-- URL Input -->
+  <rect x="40" y="118" width="830" height="42" rx="6" fill="#353545" stroke="#505060" stroke-width="1"/>
+  <text x="55" y="144" font-family="Segoe UI, sans-serif" font-size="13" fill="#888">Enter YouTube URL...</text>
+
+  <!-- Options -->
+  <text x="40" y="186" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Type:</text>
+  <rect x="80" y="173" width="120" height="28" rx="4" fill="#353545" stroke="#505060" stroke-width="1"/>
+  <text x="95" y="192" font-family="Segoe UI, sans-serif" font-size="12" fill="white">Video</text>
+  <text x="185" y="192" font-family="Segoe UI, sans-serif" font-size="9" fill="#888">▼</text>
+
+  <text x="220" y="186" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Quality:</text>
+  <rect x="280" y="173" width="120" height="28" rx="4" fill="#353545" stroke="#505060" stroke-width="1"/>
+  <text x="295" y="192" font-family="Segoe UI, sans-serif" font-size="12" fill="white">Highest</text>
+  <text x="380" y="192" font-family="Segoe UI, sans-serif" font-size="9" fill="#888">▼</text>
+
+  <text x="420" y="186" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Save to:</text>
+  <rect x="480" y="173" width="300" height="28" rx="4" fill="#353545" stroke="#505060" stroke-width="1"/>
+  <text x="495" y="192" font-family="Segoe UI, sans-serif" font-size="12" fill="#aaa">Downloads/YouTubeDownloader</text>
+  <rect x="790" y="173" width="60" height="28" rx="4" fill="#3d3d5c" stroke="#505060" stroke-width="1"/>
+  <text x="820" y="192" font-family="Segoe UI, sans-serif" font-size="12" fill="white" text-anchor="middle">Browse</text>
+
+  <!-- Download Button -->
+  <rect x="40" y="215" width="830" height="48" rx="6" fill="#4CAF50"/>
+  <text x="455" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Download</text>
+
+  <!-- Authentication Section -->
+  <rect x="25" y="295" width="870" height="90" rx="6" fill="#2d2d3d" stroke="#404050" stroke-width="1"/>
+  <text x="40" y="318" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Authentication</text>
+
+  <text x="40" y="345" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Browser:</text>
+  <rect x="105" y="332" width="110" height="26" rx="4" fill="#353545" stroke="#505060" stroke-width="1"/>
+  <text x="120" y="350" font-family="Segoe UI, sans-serif" font-size="12" fill="white">None</text>
+  <text x="198" y="350" font-family="Segoe UI, sans-serif" font-size="9" fill="#888">▼</text>
+
+  <rect x="230" y="332" width="155" height="26" rx="4" fill="#3d3d5c" stroke="#505060" stroke-width="1"/>
+  <text x="307" y="350" font-family="Segoe UI, sans-serif" font-size="11" fill="white" text-anchor="middle">Browse cookies.txt</text>
+
+  <text x="40" y="372" font-family="Segoe UI, sans-serif" font-size="11" fill="#999">No cookies file selected</text>
+
+  <text x="40" y="375" font-family="Segoe UI, sans-serif" font-size="10" fill="#ff9800">yt-dlp: OK | deno: OK</text>
+
+  <!-- Active Downloads -->
+  <text x="30" y="410" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Active Downloads</text>
+
+  <!-- Card 1 -->
+  <rect x="25" y="420" width="870" height="85" rx="8" fill="#262a2e"/>
+  <text x="45" y="445" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">1. Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)</text>
+  <text x="780" y="445" font-family="Segoe UI, sans-serif" font-size="11" fill="#ccc">Downloading (78%)</text>
+  <text x="45" y="463" font-family="Segoe UI, sans-serif" font-size="10" fill="#999">Video - 720p</text>
+
+  <rect x="45" y="475" width="810" height="16" rx="5" fill="#2d2d2d" stroke="#555" stroke-width="1"/>
+  <rect x="45" y="475" width="631" height="16" rx="5" fill="url(#progress3)"/>
+  <text x="455" y="487" font-family="Consolas, monospace" font-size="9" fill="white" text-anchor="middle">78%</text>
+
+  <!-- Card 2 -->
+  <rect x="25" y="515" width="870" height="65" rx="8" fill="#262a2e"/>
+  <text x="45" y="540" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">2. Lo-fi Hip Hop Radio - Beats to Relax/Study to</text>
+  <text x="780" y="540" font-family="Segoe UI, sans-serif" font-size="11" fill="#4CAF50">Completed</text>
+  <text x="45" y="558" font-family="Segoe UI, sans-serif" font-size="10" fill="#999">Audio - Highest</text>
+
+  <rect x="45" y="563" width="810" height="8" rx="4" fill="#2d2d2d" stroke="#555" stroke-width="0.5"/>
+  <rect x="45" y="563" width="810" height="8" rx="4" fill="#4CAF50" opacity="0.6"/>
+
+  <!-- Card 3 -->
+  <rect x="25" y="590" width="870" height="25" rx="6" fill="#262a2e"/>
+  <text x="45" y="607" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f44336">3. Bot detection! Close browser or use cookies.</text>
+  <text x="780" y="607" font-family="Segoe UI, sans-serif" font-size="11" fill="#f44336">Failed</text>
+</svg>

@@ -2,7 +2,7 @@
 
 A modern YouTube video/audio downloader with a clean GUI, built with Python, PySide6, and yt-dlp.
 
-![YouTube Downloader Screenshot](screenshot.png)
+![PySide6 Version](screenshots/pyside6.png)
 
 ## Features
 
@@ -76,6 +76,8 @@ python main.py
 ## Alternative: Tkinter Version
 
 A lighter version using tkinter (no PySide6 install needed) is also included:
+
+![Tkinter Version](screenshots/tkinter.png)
 
 ```bash
 python main_tkinter.py
