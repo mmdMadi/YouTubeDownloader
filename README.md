@@ -2,6 +2,8 @@
 
 A modern YouTube video/audio downloader with a clean GUI, built with Python, PySide6, and yt-dlp.
 
+![YouTube Downloader Screenshot](screenshot.png)
+
 ## Features
 
 - **Instant Downloads** — paste a URL and download immediately, no queue needed
